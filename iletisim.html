@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>İletişim - Beyaz Mantar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            color: #b30000;
+            text-align: center;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #b30000;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .info {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .info a {
+            color: #b30000;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bize Ulaşın</h1>
+    <form action="https://formspree.io/f/mwkgrkzr" method="POST">
+        <input type="text" name="name" placeholder="Adınız" required>
+        <input type="email" name="_replyto" placeholder="E-posta adresiniz" required>
+        <textarea name="message" placeholder="Mesajınız" rows="6" required></textarea>
+        <button type="submit">Gönder</button>
+    </form>
+
+    <div class="info">
+        <p><strong>Telefon:</strong> <a href="tel:+905069955525">+90 506 995 55 25</a></p>
+        <p><strong>E-posta:</strong> <a href="mailto:beyazmantar@outlook.com.tr">beyazmantar@outlook.com.tr</a></p>
+        <p><a href="https://wa.me/905069955525" target="_blank">WhatsApp ile iletişime geç</a></p>
+        <p><a href="https://maps.app.goo.gl/bHsuCKHJAVhhJZXC9" target="_blank">Google Haritalarda Gör</a><br>
+        <a href="https://maps.apple.com/?ll=40.128922,33.043801&q=İşaretli%20Konum&t=h" target="_blank">Apple Haritalarda Gör</a></p>
+    </div>
+</body>
+</html>
